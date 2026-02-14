@@ -79,8 +79,10 @@ CHECK SOFTWARE:
 - choco --version
 
 PACKAGE MANAGEMENT:
-- Install: choco install <package> -y
-- List installed: choco list --local-only
+- Install (winget): winget install --id <id> --silent --accept-package-agreements --accept-source-agreements
+- Search (winget): winget search "<query>"
+- Install (choco): choco install <package> -y
+- List installed (choco): choco search --local-only
 
 FILES & FOLDERS:
 - List: Get-ChildItem
