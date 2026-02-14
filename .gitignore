@@ -1,0 +1,22 @@
+# Binaries
+*.exe
+*.dll
+
+# Logs
+*.log
+*.txt
+
+# User Data
+.shell-e/
+
+# Large Assets
+assets/
+models/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Testing
+testEnvironment/
+tests/sandbox/
