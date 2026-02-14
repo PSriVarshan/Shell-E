@@ -1,6 +1,7 @@
 # Binaries
 *.exe
 *.dll
+*.exe~
 
 # Logs
 *.log
@@ -11,11 +12,13 @@
 
 # Large Assets
 assets/
+model/
 models/
 
 # Editor/IDE
 .vscode/
 .idea/
+*~
 
 # Testing
 testEnvironment/

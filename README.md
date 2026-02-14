@@ -54,4 +54,4 @@ go build -o shell-e ./cmd/app
 - **Model not found**: Check `config.yaml` or settings in the app.
 
 ## License
-MIT
+GNU AFFERO GENERAL PUBLIC LICENSE
